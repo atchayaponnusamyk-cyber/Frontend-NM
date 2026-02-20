@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Test User",
+      "email": "user@test.com",
+      "password": "user123",
+      "role": "USER"
+    },
+    {
+      "id": 2,
+      "name": "Admin Person",
+      "email": "admin@test.com",
+      "password": "admin123",
+      "role": "ADMIN"
+    },
+    {
+      "id": 3,
+      "name": "Staff Person",
+      "email": "staff@test.com",
+      "password": "staff123",
+      "role": "STAFF"
+    },
+    {
+      "id": 1771528628881,
+      "name": "user1",
+      "email": "user1@test.com",
+      "password": "1234",
+      "role": "USER"
+    },
+    {
+      "id": 1771528754234,
+      "name": "user2",
+      "email": "user2@test.com",
+      "password": "user123",
+      "role": "USER"
+    }
+  ],
+  "complaints": [
+    {
+      "id": 1,
+      "title": "Internet not working",
+      "description": "My internet connection has been down since yesterday.",
+      "category": "Technical",
+      "status": "ASSIGNED",
+      "userId": 1,
+      "staffId": 3,
+      "assignedStaff": "Staff Person",
+      "createdAt": "2026-02-19T10:00:00Z",
+      "updates": [
+        {
+          "message": "",
+          "timestamp": "2026-02-20T04:49:41.776Z"
+        },
+        {
+          "message": "",
+          "timestamp": "2026-02-20T04:49:51.646Z"
+        }
+      ],
+      "feedback": {
+        "rating": 5,
+        "comment": "service was really great. keep going"
+      }
+    },
+    {
+      "id": 1771564546717,
+      "title": "EB current ",
+      "description": "low voltage",
+      "category": "Billing",
+      "status": "CLOSED",
+      "userId": 1,
+      "staffId": 3,
+      "assignedStaff": "Staff Person",
+      "createdAt": "2026-02-20T05:15:46.717Z",
+      "updates": [
+        {
+          "message": "",
+          "timestamp": "2026-02-20T05:17:57.740Z"
+        }
+      ],
+      "feedback": {
+        "rating": 3,
+        "comment": "super"
+      }
+    },
+    {
+      "id": 1771577475743,
+      "title": "EB current",
+      "description": "can't pay th",
+      "category": "Billing",
+      "status": "RESOLVED",
+      "userId": 1,
+      "staffId": 3,
+      "assignedStaff": "Staff Person",
+      "createdAt": "2026-02-20T08:51:15.743Z",
+      "updates": [
+        {
+          "message": "",
+          "timestamp": "2026-02-20T08:54:07.558Z"
+        }
+      ],
+      "feedback": null
+    }
+  ],
+  "staff": [
+    {
+      "id": 3,
+      "name": "Staff Person",
+      "email": "staff@test.com",
+      "assignedCount": 0
+    }
+  ],
+  "feedback": []
+}
